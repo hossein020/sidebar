@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .sidebar{
-    width: 200px;
+    width: 0;
     height: 100vh;
     background-color: #222;
     position: fixed;
@@ -29,4 +29,7 @@
 }
 .open::after{
     content: '\002630 open';
+}
+.show{
+    width: 250px;
 }
